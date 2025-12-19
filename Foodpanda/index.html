@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            text-align: left;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 40px;
+        }
+
+        .container h1 {
+            max-width: 650px;
+        }
+
+.hero {
+  width: 100%;
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.hero-inner {
+  max-width: 1200px;      /* 🔥 KEY FIX */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;              /* space between image & text */
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;       /* 🔥 prevents over-stretch */
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  background-color: #ff2b85;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.box-content{
+     max-width: 1200px;      /* 🔥 KEY FIX */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+       
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="logo"> <img src="./assets/logo.png" alt="food panda"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Newsroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">panda ads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="content"></div>
+        <h1> <b>We’re here to help you <br> live life the panda way. <br>
+                Spend more time doing what you love – we’ll take care of tasty meals, fresh groceries and new
+                flavours.</b></h1>
+    </div>
+    <br><br>
+    <section class="hero">
+  <div class="hero-inner">
+    <div class="hero-image">
+      <img src="./assets/banner.png" alt="Food delivery app">
+    </div>
+
+    <div class="hero-content">
+      <h1>Meet the next generation of delivery!</h1>
+      <p>
+        What makes quick commerce quick? We stand for swift personalised
+        delivery solutions for our customers, partners and employees.
+        Learn how we empower authentic lifestyles and drive innovation
+        across the globe.
+      </p>
+      <button class="hero-btn">About</button>
+    </div>
+  </div>
+</section>
+<br><br>
+<div class="box">
+    <div class="box-content">
+        <div class="hero-content">
+            <h1>Taste the convenience.</h1>
+            <p>Try us out! Delicious food and speedy groceries are at your fingertips. Go ahead, download foodpanda now.</p>
+
+        </div>
+        <div class="hero-image">
+            <img src="./assets/bannar2.png" alt="">
+        </div>
+
+    </div>
+</div>
+<br><br>
+<div class="hero">
+    <div class="hero-inner">
+        <div class="hero-image">
+            <img src="./assets/image.png" alt="">
+
+        </div>
+        <div class="hero-content">
+            <h1>Find the job you’d love</h1>
+            <p>Hungry to make a difference? There’s a seat at our table! <br>
+
+Find out how we connect tech, passions, projects and people – explore international career opportunities at foodpanda.</p>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
