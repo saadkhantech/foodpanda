@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            font-family: sans-serif;
+        }
+
+        .nav-item {
+            display: inline-block;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+
+        }
+
+        .btn {
+            background-color: rgb(248, 7, 140);
+            color: white;
+            font-weight: bold;
+            border-radius: 28px;
+            height: 50px;
+            width: 180px;
+            border: 0;
+            font-family: sans-serif;
+        }
+
+        .image {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            box-sizing: border-box;
+
+        }
+
+        .image img {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            min-width: 100%;
+            max-height: 80%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: -1;
+            /* opacity: 0.5; */
+        }
+
+        .text {
+            color: white;
+            margin-left: 90px;
+            font-size: larger;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+         .tex {
+            margin-left: 70px;
+            max-width: 50%;
+            font-family: sans-serif;
+            font-size: larger;
+        }
+        .box{
+            display: flex;
+            margin: 90px;
+            justify-content: space-between;
+            text-align: left;
+            font-size: larger;
+            font-family: sans-serif;
+            background-color: #F5F5F6;
+        }
+    </style>
+</head>
+<body>
+     <nav class="nav">
+        <div class="logo"> <img src="./assets/logo.png" alt="food panda"></div>
+        <div>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./news.html">Newsroom</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./partners.html">Partners</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">panda ads</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+            </ul>
+        </div>
+        <div> <button class="btn">Choose Location</button></div>
+
+    </nav>
+     <div class="image">
+        <img src="./assets/bannar2.png" alt="">
+
+        <div class="text">
+            <br><br><br>
+            <h1><b>About<br>
+                   foodpanda </b></h1>
+        </div>
+    </div>
+    <div class="tex">
+        <h1><b>From food delivery to your daily convenience companion.</b></h1>
+         <p>A subsidiary of Delivery Hero, foodpanda launched in Singapore in 2014 as a food delivery platform.  Dedicated to helping customers get their tasty favourites fast, it quickly won the hearts and minds of customers in APAC. <br><br>
+
+Powered by tech and operational excellence, foodpanda has been growing its quick-commerce footprint in more than 400 cities across 11 markets in Asia – Singapore, Hong Kong, Thailand, Malaysia, Pakistan, Taiwan, Philippines, Bangladesh, Laos, Cambodia, and Myanmar. <br><br>
+
+Thanks to dedicated partners, riders, and a team united by shared values,  foodpanda is now providing millions with a convenient way to get food and groceries in a few taps.</p>
+    </div>
+   <div class="box">
+    <div>
+        <h1><b>Our riders are <br>our heroes</b></h1>
+        <p>We are here to provide exiting opportunities and empower woek flexibility. Learn more about our rider's journey or sign up to become one</p>
+    </div>
+    <div><img src="./assets/bannar2.png" alt=""></div>
+   </div>
+   <div class="box">
+    <div>
+        <h1><b>Join the panda team!</b></h1>
+        <p>Hungry for growth? There’s a seat at our table! We’re looking for the best in tech, marketing, sales, logistics, account management and more. Explore career opportunities at foodpanda now.</p>
+         <button class="btn">view  jobs</button>
+    </div>
+    <div>
+        <img src="./assets/banner3.png" alt="">
+    </div>
+   </div>
+   <div style="background-color: black; color: white;">
+        <footer>
+            <img src="./assets/logo.png" alt="">
+            
+           
+            <center><p>Copyright © 2025 foodpanda</p></center>
+
+        </footer>
+    </div>
+</body>
+</html>
