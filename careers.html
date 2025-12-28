@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .nav ul {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav li {
+            list-style: none;
+        }
+
+        .nav-items {
+            display: inline-block;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        span {
+            color: rgb(255, 8, 181);
+            font-size: 20px;
+        }
+
+        .box {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+            background-color: pink;
+            height: 600px;
+        }
+
+        .text {
+            margin-left: 100px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .image img {
+            height: 550px;
+
+        }
+
+        .form {
+            width: 450px;
+            background-color: white;
+            border-radius: 40px;
+            padding: 6px 12px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+
+        .form input {
+            border: none;
+            outline: none;
+            flex: 1;
+            font-size: 14px;
+        }
+
+        .btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: none;
+            background-color: #ff2d78;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 200px;
+
+        }
+
+        .container p {
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .class {
+            display: flex;
+            align-items: center;
+            background-color: #F5F5F6;
+            height: 600px;
+        }
+
+        .class h2 {
+            margin: 50px;
+            color: rgb(255, 0, 157);
+            font-size: 40px;
+        }
+
+        .class p {
+            margin: 50px;
+            max-width: 700px;
+            font-size: 20px;
+        }
+
+        .class2 {
+            display: flex;
+            align-items: center;
+            background-color: #F5F5F6;
+            height: 600px;
+        }
+
+        .class2 img {
+            height: 550px;
+            margin: 50px;
+            border-radius: 20px;
+        }
+
+        .class2 h2 {
+            margin: 50px;
+            color: rgb(255, 0, 157);
+            font-size: 40px;
+        }
+
+        .class2 p {
+            margin: 50px;
+            max-width: 700px;
+            font-size: 20px;
+        }
+
+        .box1 {
+            background-color: pink;
+            height: 600px;
+        }
+
+        .box1 h2 {
+            text-align: right;
+            margin-right: 90px;
+            padding: 50px;
+            font-size: 40px;
+        }
+
+        .box2 {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 40px;
+            margin-left: 190px;
+        }
+        .card1{
+            height: 160px;
+            width: 180px;
+            background-color: #fff;
+            border-radius: 22px;
+            border:3px solid rgba(255,255,255,0.7);
+            box-shadow:0 10px 20px rgba(0,0,0,.1);
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            text-align:center;
+            font-weight: bold;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+        }
+        .footer ul{
+            display: flex;
+            gap: 30px;
+            font-weight: bolder;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div>
+            <img src="./assets/logo.png" alt="logo">
+        </div>
+        <div>
+            <ul>
+                <li class="nav-items"><a class="nav-link" href="./careers.about.html">About Us</a></li>
+                <li class="nav-items"><a class="nav-link" href="./whyfoodpanda.html">Why Foodpanda?</a></li>
+                <li class="nav-items"><a class="nav-link" href="./jobs.html">Jobs</a></li>
+                <li class="nav-items"><a class="nav-link" href="">Location</a></li>
+                <li class="nav-items"><a class="nav-link" href="">pandaStories</a></li>
+            </ul>
+        </div>
+        <div>
+            <span><b>Saved Jobs ☆</b></span>
+        </div>
+    </nav>
+    <div class="box">
+        <div class="text">
+            <h1><b>Hungry to make an impact?</b></h1>
+            <h3>There’s always room at our table.</h3><br>
+            <div class="form">
+                <form>
+                    <input placeholder=" your Job search here" type="text">
+                    <button class="btn">🔍</button>
+                </form>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./careers.assets/panda.png" alt="">
+        </div>
+    </div> <br><br>
+    <div class="container">
+        <center>
+            <h1><b>"To be the most loved everyday food and groceries destination"</b></h1>
+            <br>
+            <p>...that’s our mission at foodpanda. Whether it’s by delivering food on our signature pink bikes,
+                providing insights into the newest food trends, or showcasing local favorite restaurants, we’re on a
+                mission to redefine how food, people, culture and tech are connected. <br>
+
+                Our parent company, Delivery Hero, is a global leader in the food delivery industry processing over 3
+                million orders every day and operating in 40+ markets in the world, with 18,000 employees and
+                approximately 500,000+ restaurant partners.</p>
+        </center>
+    </div>
+    <br><br>
+    <div class="class">
+        <div>
+            <h2><b>We love what we do</b></h2>
+            <p>foodpanda is the largest food and grocery delivery platform in Asia, outside of China. Operating in more
+                than 400 cities across 11 markets, we continue to expand and grow in our core food delivery business, as
+                well as in new verticals like grocery deliveries, with a strong tech infrastructure at our core. From
+                our restaurants-partners, cloud kitchens and cloud grocery stores — foodpanda is just one tap away,
+                getting everything you need into your hands quickly and conveniently!</p>
+        </div>
+        <div>
+            <img src="./careers.assets/bannar1.png" alt="">
+        </div>
+
+    </div>
+    <br><br>
+    <div class="class2">
+        <div>
+            <img src="./careers.assets/bannar2.png" alt="">
+        </div>
+        <div>
+            <h2>
+                <b>You can be yourself <br>at foodpanda</b>
+            </h2>
+            <p>With over 50 nationalities and 20 languages spoken across our markets, we pride ourselves on our focus on
+                diversity and inclusion. We are able to exchange and bring to the table the best practices (and food!)
+                from each corner of the world.</p>
+        </div>
+    </div>
+    <br><br>
+    <div>
+
+    </div><br><br>
+<div class="container">
+    <div class="box1">
+        <h2><b>A diverse and high-performing team</b></h2>
+        <div class="box2">
+            <div class="card1">
+                 <h3>7,000 +</h3>
+                 <span>EMPLOYEES</span>
+            </div>
+           <div class="card1">
+                <h3>400 +</h3>
+                <span>CITIES</span>
+            </div>
+            <div class="card1">
+                      <h3>50 +</h3>
+                      <span>NATIONALITIES</span>
+            </div>
+            <div class="card1">
+                <h3>20 +</h3>
+                <span>LANGUAGES</span>
+            </div>
+            <img src="./careers.assets/PPanda.png" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./careers.assets/card1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">pandapurpose 2023: Delivering with purpose to local communities across Asia
+</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Read More</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./careers.assets/card2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Building a Better Workplace: foodpanda’s Mental Health Initiatives</h5>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Read More</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./careers.assets/card3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Our Office Space</h5>
+        <p class="card-text">Take a step into our APAC Headquarters! Ever wondered what it is like to be a panda? Let us show you! Here at foodpanda, we’re committed to creating..</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Read More</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br><br>
+<footer class="footer">
+    <div>
+        <br><br>
+        <ul>
+            <li>About Us</li>
+            <li>Join Us</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>location</li>
+            <li>Job Openings</li>
+            <li>Cookies and Similar Technologies Policy</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>Teams</li>
+            <li>Our Values</li>
+        </ul>
+    </div>
+    <hr><br>
+    <center>Copyright &copy; 2025 Foodpanda</center>
+</footer>
+</body>
+
+</html>
